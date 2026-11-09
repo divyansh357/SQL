@@ -21,3 +21,11 @@ ORDER BY gender , age DESC;  # DESC only applicable for age not for gender
 SELECT *
 FROM employee_demographics
 ORDER BY age DESC, gender; # group by gender becomes useless
+
+SELECT *
+FROM employee_demographics
+ORDER BY  5 , 4 ASC; # we can use  field positions but not recommended because we may remove some columns in db , that may result iin fetching incorrect details
+
+
+
+
